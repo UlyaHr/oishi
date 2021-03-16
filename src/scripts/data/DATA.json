@@ -1,0 +1,32 @@
+{
+  "popularMenus": [
+    {
+      "id": 1,
+      "name": "Chocolate Truffles",
+      "likes": 936,
+      "resto": "Sweety Rabbit",
+      "picture": "./images/menus/truffles.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ribeye Steak",
+      "likes": 925,
+      "resto": "Cowboy Jack",
+      "picture": "./images/menus/ribeye.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Thai Tea Boba",
+      "likes": 880,
+      "resto": "Babibubebo",
+      "picture": "./images/menus/boba.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cheeseburger",
+      "likes": 705,
+      "resto": "CheeseKing",
+      "picture": "./images/menus/burger.jpg"
+    }
+  ]
+}

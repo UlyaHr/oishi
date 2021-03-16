@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+  .section-header {
+    .section-title {
+      font-size: 24px;
+      text-align: center;
+
+      &::after {
+        margin: 0 auto;
+        margin-top: 10px !important;
+      }
+    }
+  }
+
+  #drawer {
+    width: 320px;
+    left: -325px;
+  }
+
+  .hero {
+    height: 322px;
+  }
+
+  .hero-gradient,
+  .hero-image {
+    height: 322px;
+  }
+
+  .hero-content {
+    padding-top: 90px;
+  }
+
+  .hero-tagline {
+    font-size: 16px !important;
+  }
+  .hero-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .restaurants,
+  .menus {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.search-form {
+  width: 520px;
+  height: 44px;
+}
+
+#explore,
+#popular-menus {
+  padding: 45px 0;
+}

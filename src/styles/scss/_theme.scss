@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: local('Material Icons'), url('/fonts/MaterialIcons-Regular.woff2') format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+// font family
+$roboto-family: 'Roboto', sans-serif;
+$lato-family: 'Lato', sans-serif;
+
+$hero-height: 100vh;
+$footer-height: 115px;
+
+// color scheme
+$lightshade: #f1f3f3;
+$lightaccent: #67a836;
+$maincolor: #cb2317;
+$darkaccent: #383e43;
+$darkshade: #e3e9e9;
+$white: #ffffff;
+$starcolor: #F7A000;
+$heartcolor: #EB6664;

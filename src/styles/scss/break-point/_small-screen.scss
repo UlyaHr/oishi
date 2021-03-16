@@ -1,0 +1,56 @@
+@media screen and (min-width: 650px) {
+  .section-header {
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: 18px;
+
+    &::after {
+      margin-top: 6px !important;
+    }
+  }
+
+  #drawer-menu {
+    margin-right: 10px;
+  }
+
+  .hero-content {
+    padding: 0 50px;
+    padding-top: 32px;
+  }
+
+  .search-form {
+    width: 380px;
+    height: 38px;
+  }
+
+  .left-group {
+    display: none;
+  }
+
+  .right-group {
+    .form-icon {
+      button {
+        padding-top: 8px;
+      }
+    }
+  }
+
+  .restaurant-thumbnail {
+    height: 170px;
+  }
+
+  .restaurant-place {
+    font-weight: 500;
+    min-width: 80px;
+  }
+
+  .menu-thumbnail {
+    height: 170px;
+  }
+
+  .discover-title {
+    font-size: 24px;
+  }
+}
